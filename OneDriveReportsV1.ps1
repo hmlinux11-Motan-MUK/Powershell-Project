@@ -28,12 +28,12 @@
 # =================================================================================================
 
 # --- Tenant / App Details ---
-$appID  = "a88375e8-7d6c-4478-88db-327c31c476df"
-$tenant = "a1b70a0b-a9f5-43a5-8d86-f0ecb1208eb0"
+$appID  = ""
+$tenant = ""
 
 # --- Certificate Authentication (PFX file method) ---
-$certificatePath   = "M:\PSproject\tenantassesmentcert.pfx"
-$certPlainPassword = "@Cert!"     # keep blank if PFX has no password
+$certificatePath   = ""
+$certPlainPassword = ""     # keep blank if PFX has no password
 $certPassword      = ConvertTo-SecureString $certPlainPassword -AsPlainText -Force
 
 # --- Input / Output ---
